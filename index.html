@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About HTML and CSS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <style>
+            /* Heleme se */
+        </style>
+     <!-- ííííííí ááááááááá-->
+        <div>
+            <h1><strong>How do I see the differences between HTML and CSS?</strong></h1>
+            <ol>
+                <li>What is the difference between the usage of <strong>HTML and CSS?</strong> </li>
+                <p><q>HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured.</q> This markup tells a web browser how to display the text, images and other forms of multimedia on a webpage.</p>
+                <p>While CSS adds style to HTML </p>
+                <li>What is the newest version of <strong>HTML?</strong></li>
+                <p> HTML 5 </p>
+                <li>What are the top five most used <strong>HTML5 elements?</strong> If not sure, make a guess.</li>
+                
+                    <ul>
+                        <li> paragraph</li>
+                        <li>lists</li>
+                        <li>headers</li>
+                        <li>body</li>
+                        <li>hyperlinks</li>
+                    </ul>
+                <li>Have you checked out the <strong>HTML5 cheatsheet?</strong>
+                </li>
+                <p> <a href="https://www.wpkube.com/html5-cheat-sheet/" >HTML Cheatsheet</a> </p>
+                <li>What is the difference between <strong>semantic and non-semantic </strong>elements?</li>
+                <p><ul><li>Non-semantic elements tells nothing about its content.</li>
+                    <li>Semantic elements clearly defines its content.</li></ul></p>
+                <li>Why do we prefer using <strong>semantic elements?</strong></li>
+                <p>HTML5's semantic elements help structure the code we create, making it more readable and easier to maintain. </p>
+                <li>Do all <strong>browsers support</strong> all of the newest HTML / CSS elements?</li>
+                <p> More or less. For further details visit <a href="https://www.wpkube.com/html5-cheat-sheet/" >HTML Cheatsheet </p> </p>
+                <li>Test the following elements on <a href="https://caniuse.com/">Can I Use</a>: <code>svg</code>, <code>nav</code>, <code>code</code>, <code>form</code>, <code>datalist</code>. Which browser version support them and which do not?</li>
+                <ul>
+                    <li>
+                        <p>svg
+                            <p><img src="/img/svg.png" style="height: 50%;
+                                width: 50%;"></p> <!-- not sure about the size-->
+                            
+                        </p>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            nav
+                            <p><img src="img/nav.png" style="height: 50%;
+                                width: 50%;"></p>
+                        </p>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>code
+                                <p><img src="img/code.png" style="height: 50%;
+                                    width: 50%;"></p>
+                        </p>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>form <p><img src="img/form.png" style="height: 50%;
+                            width: 50%;"></p></p>
+                            <hr>
+                    </li>
+                    <li>
+                        <p>datalist <p><img src="img/datalist.png" style="height: 50%;
+                            width: 50%;"></p>
+                            
+                    </li>
+                </ul>
+            </ol>
+        </di>
+        
+        
+        <div>
+            <script>
+                    function highlightCode(container) {
+                    container.find('code').each(function(i, block) {
+                        hljs.highlightBlock(block);
+                        hljs.lineNumbersBlock(block);
+                    });
+                    }
+                    function initializeInlineSolutions(container) {
+                    $(container).find('.inline-solution').each(function(i, e) {
+                        $(e).find('.solution').click(function(ev) {
+                        $(e).toggleClass('open');
+                        });
+                    });
+                    }
+                    $(function() {
+                    highlightCode($('#students_text'));
+                    initializeInlineSolutions($('#students_text'));
+                    });
+                </script>
+            </div>
+    </body>
+</html>
